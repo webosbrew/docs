@@ -29,7 +29,7 @@
             "type": "string",
             "description": "The title of the application as it shows in the Launcher and the app window. The application title is unique, set once."
         },
-         "description": {
+         "appDescription": {
             "type": "string",
             "description": "The description of the application shown in the application details page."
         },
