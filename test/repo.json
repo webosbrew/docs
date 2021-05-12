@@ -1,0 +1,47 @@
+{
+    "paging": {
+        "page": 1,
+        "count": 4,
+        "maxPage": 1,
+        "itemsTotal": 4
+    },
+    "packages": [
+        {
+            "id": "org.chocolate-doom.demo",
+            "title": "Chocolate Doom Demo",
+            "iconUri": "https://raw.githubusercontent.com/webosbrew/chocolate-doom/webos-tv/data/doom.png",
+            "manifestUrl": "https://github.com/webosbrew/chocolate-doom/releases/download/webos-demo-0.0.1/org.chocolate-doom.demo.manifest.json"
+        },
+        {
+            "id": "org.webosbrew.hbchannel",
+            "title": "Homebrew Channel",
+            "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
+            "manifest": {
+                "id": "org.webosbrew.hbchannel",
+                "version": "0.1.1",
+                "type": "web",
+                "title": "Homebrew Channel",
+                "appDescription": "webOS Homebrew installer",
+                "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
+                "sourceUrl": "https://github.com/webosbrew/webos-homebrew-channel",
+                "rootRequired": true,
+                "ipkUrl": "org.webosbrew.hbchannel_0.1.1_all.ipk",
+                "ipkHash": {
+                    "sha256": "3fbd9e6c91b3706f147c3a9d2dbfbbe4b03208e3be1b6bc65fe82ab4da6aaae2"
+                }
+            }
+        },
+        {
+            "id": "com.limelight.webos",
+            "title": "Moonlight",
+            "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
+            "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos.manifest.json"
+        },
+        {
+            "id": "com.retroarch",
+            "title": "Retroarch",
+            "iconUri": "https://github.com/webosbrew/RetroArch/raw/webos-tv-support/webos/icon160.png",
+            "manifestUrl": "https://github.com/webosbrew/RetroArch/releases/latest/download/com.retroarch.manifest.json"
+        }
+    ]
+}

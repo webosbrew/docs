@@ -29,10 +29,6 @@
             "type": "string",
             "description": "The title of the application as it shows in the Launcher and the app window. The application title is unique, set once."
         },
-         "appDescription": {
-            "type": "string",
-            "description": "The description of the application shown in the application details page."
-        },
         "iconUri": {
             "type": "string",
             "description": "Image displayed for your app. This is a URL to an image, or data: encoded URI"
