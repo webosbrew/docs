@@ -1,0 +1,23 @@
+{
+  "name": "webosbrew-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r esm tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webosbrew/docs.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/webosbrew/docs/issues"
+  },
+  "homepage": "https://github.com/webosbrew/docs#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "jsonschema": "^1.4.0"
+  }
+}
